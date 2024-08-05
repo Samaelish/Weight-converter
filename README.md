@@ -1,6 +1,6 @@
-# Weight converter
+# Конвертер веса
 
-## Weight converter app using "setTimeout()"
+## Конвертер веса с использованием "setTimeout()"
 
 ![Website Pic](/readmeImg.jpg)
 
