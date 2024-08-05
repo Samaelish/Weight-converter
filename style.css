@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: #8360c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2ebf91, #8360c3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #2ebf91,
+    #8360c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #11280a;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 82% 18% 91% 9% / 19% 77% 23% 81%;
+  width: 85%;
+  max-width: 450px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.input {
+  padding: 0.5rem;
+  width: 70%;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  border-radius: 75% 51% 67% 33% / 20% 77% 23% 80%;
+  color: darkgreen;
+  outline: none;
+}
+
+.error {
+  color: red;
+}
